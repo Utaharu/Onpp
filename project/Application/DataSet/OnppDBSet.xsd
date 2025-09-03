@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="OnppDB" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="OnppDB" msdata:IsDataSet="true" msdata:CaseSensitive="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="OnppDB" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="OnppDB">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="PlayListData" msdata:Locale="" msprop:Generator_RowEvHandlerName="PlayListDataRowChangeEventHandler" msprop:Generator_RowDeletedName="PlayListDataRowDeleted" msprop:Generator_RowDeletingName="PlayListDataRowDeleting" msprop:Generator_RowEvArgName="PlayListDataRowChangeEvent" msprop:Generator_TablePropName="PlayListData" msprop:Generator_RowChangedName="PlayListDataRowChanged" msprop:Generator_UserTableName="PlayListData" msprop:Generator_RowChangingName="PlayListDataRowChanging" msprop:Generator_RowClassName="PlayListDataRow" msprop:Generator_TableClassName="PlayListDataDataTable" msprop:Generator_TableVarName="tablePlayListData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msprop:Generator_UserColumnName="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnVarNameInTable="columnNo" type="xs:int" />
+              <xs:element name="Title" msdata:Caption="曲名" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtitle" msdata:Caption="サブタイトル" msprop:Generator_UserColumnName="Subtitle" msprop:Generator_ColumnPropNameInTable="SubtitleColumn" msprop:Generator_ColumnPropNameInRow="Subtitle" msprop:Generator_ColumnVarNameInTable="columnSubtitle" type="xs:string" minOccurs="0" />
+              <xs:element name="PlayTime" msdata:Caption="時間" msprop:Generator_UserColumnName="PlayTime" msprop:Generator_ColumnPropNameInTable="PlayTimeColumn" msprop:Generator_ColumnPropNameInRow="PlayTime" msprop:Generator_ColumnVarNameInTable="columnPlayTime" type="xs:int" minOccurs="0" />
+              <xs:element name="Artist" msdata:Caption="アーティスト" msprop:Generator_UserColumnName="Artist" msprop:Generator_ColumnPropNameInTable="ArtistColumn" msprop:Generator_ColumnPropNameInRow="Artist" msprop:Generator_ColumnVarNameInTable="columnArtist" type="xs:string" minOccurs="0" />
+              <xs:element name="Album" msdata:Caption="アルバム" msprop:Generator_UserColumnName="Album" msprop:Generator_ColumnPropNameInTable="AlbumColumn" msprop:Generator_ColumnPropNameInRow="Album" msprop:Generator_ColumnVarNameInTable="columnAlbum" type="xs:string" minOccurs="0" />
+              <xs:element name="Bitrate" msdata:Caption="kbps" msprop:Generator_UserColumnName="Bitrate" msprop:Generator_ColumnPropNameInTable="BitrateColumn" msprop:Generator_ColumnPropNameInRow="Bitrate" msprop:Generator_ColumnVarNameInTable="columnBitrate" type="xs:int" minOccurs="0" />
+              <xs:element name="Samplerate" msdata:Caption="Hz" msprop:Generator_UserColumnName="Samplerate" msprop:Generator_ColumnPropNameInTable="SamplerateColumn" msprop:Generator_ColumnPropNameInRow="Samplerate" msprop:Generator_ColumnVarNameInTable="columnSamplerate" type="xs:int" minOccurs="0" />
+              <xs:element name="FileSize" msdata:Caption="Size" msprop:Generator_UserColumnName="FileSize" msprop:Generator_ColumnPropNameInTable="FileSizeColumn" msprop:Generator_ColumnPropNameInRow="FileSize" msprop:Generator_ColumnVarNameInTable="columnFileSize" type="xs:int" minOccurs="0" />
+              <xs:element name="Path" msdata:Caption="ファイルの場所" msprop:Generator_UserColumnName="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnVarNameInTable="columnPath" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ConfigData" msdata:Locale="" msprop:Generator_RowEvHandlerName="ConfigDataRowChangeEventHandler" msprop:Generator_RowDeletedName="ConfigDataRowDeleted" msprop:Generator_RowDeletingName="ConfigDataRowDeleting" msprop:Generator_RowEvArgName="ConfigDataRowChangeEvent" msprop:Generator_TablePropName="ConfigData" msprop:Generator_RowChangedName="ConfigDataRowChanged" msprop:Generator_UserTableName="ConfigData" msprop:Generator_RowChangingName="ConfigDataRowChanging" msprop:Generator_RowClassName="ConfigDataRow" msprop:Generator_TableClassName="ConfigDataDataTable" msprop:Generator_TableVarName="tableConfigData">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="PlayMode" msprop:Generator_UserColumnName="PlayMode" msprop:Generator_ColumnPropNameInTable="PlayModeColumn" msprop:Generator_ColumnPropNameInRow="PlayMode" msprop:Generator_ColumnVarNameInTable="columnPlayMode" type="xs:string" minOccurs="0" />
+              <xs:element name="PlayNo" msprop:Generator_UserColumnName="PlayNo" msprop:Generator_ColumnPropNameInTable="PlayNoColumn" msprop:Generator_ColumnPropNameInRow="PlayNo" msprop:Generator_ColumnVarNameInTable="columnPlayNo" type="xs:int" default="0" minOccurs="0" />
+              <xs:element name="PlayList" msprop:Generator_UserColumnName="PlayList" msprop:Generator_ColumnPropNameInTable="PlayListColumn" msprop:Generator_ColumnPropNameInRow="PlayList" msprop:Generator_ColumnVarNameInTable="columnPlayList" type="xs:boolean" default="false" minOccurs="0" />
+              <xs:element name="PlayVolume" msprop:Generator_UserColumnName="PlayVolume" msprop:Generator_ColumnPropNameInTable="PlayVolumeColumn" msprop:Generator_ColumnPropNameInRow="PlayVolume" msprop:Generator_ColumnVarNameInTable="columnPlayVolume" type="xs:decimal" default="1000" minOccurs="0" />
+              <xs:element name="PlayListColum" msprop:Generator_UserColumnName="PlayListColum" msprop:Generator_ColumnPropNameInTable="PlayListColumColumn" msprop:Generator_ColumnPropNameInRow="PlayListColum" msprop:Generator_ColumnVarNameInTable="columnPlayListColum" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PlayListView" msdata:Locale="" msprop:Generator_RowEvHandlerName="PlayListViewRowChangeEventHandler" msprop:Generator_RowDeletedName="PlayListViewRowDeleted" msprop:Generator_RowDeletingName="PlayListViewRowDeleting" msprop:Generator_RowEvArgName="PlayListViewRowChangeEvent" msprop:Generator_TablePropName="PlayListView" msprop:Generator_RowChangedName="PlayListViewRowChanged" msprop:Generator_UserTableName="PlayListView" msprop:Generator_RowChangingName="PlayListViewRowChanging" msprop:Generator_RowClassName="PlayListViewRow" msprop:Generator_TableClassName="PlayListViewDataTable" msprop:Generator_TableVarName="tablePlayListView">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="No" msprop:Generator_UserColumnName="No" msprop:Generator_ColumnPropNameInTable="NoColumn" msprop:Generator_ColumnPropNameInRow="No" msprop:Generator_ColumnVarNameInTable="columnNo" type="xs:int" />
+              <xs:element name="Title" msdata:Caption="曲名" msprop:Generator_UserColumnName="Title" msprop:Generator_ColumnPropNameInTable="TitleColumn" msprop:Generator_ColumnPropNameInRow="Title" msprop:Generator_ColumnVarNameInTable="columnTitle" type="xs:string" minOccurs="0" />
+              <xs:element name="Subtitle" msdata:Caption="サブタイトル" msprop:Generator_UserColumnName="Subtitle" msprop:Generator_ColumnPropNameInTable="SubtitleColumn" msprop:Generator_ColumnPropNameInRow="Subtitle" msprop:Generator_ColumnVarNameInTable="columnSubtitle" type="xs:string" minOccurs="0" />
+              <xs:element name="PlayTime" msdata:Caption="時間" msprop:Generator_UserColumnName="PlayTime" msprop:Generator_ColumnPropNameInTable="PlayTimeColumn" msprop:Generator_ColumnPropNameInRow="PlayTime" msprop:Generator_ColumnVarNameInTable="columnPlayTime" type="xs:int" minOccurs="0" />
+              <xs:element name="Artist" msdata:Caption="アーティスト" msprop:Generator_UserColumnName="Artist" msprop:Generator_ColumnPropNameInTable="ArtistColumn" msprop:Generator_ColumnPropNameInRow="Artist" msprop:Generator_ColumnVarNameInTable="columnArtist" type="xs:string" minOccurs="0" />
+              <xs:element name="Album" msdata:Caption="アルバム" msprop:Generator_UserColumnName="Album" msprop:Generator_ColumnPropNameInTable="AlbumColumn" msprop:Generator_ColumnPropNameInRow="Album" msprop:Generator_ColumnVarNameInTable="columnAlbum" type="xs:string" minOccurs="0" />
+              <xs:element name="Bitrate" msdata:Caption="kbps" msprop:Generator_UserColumnName="Bitrate" msprop:Generator_ColumnPropNameInTable="BitrateColumn" msprop:Generator_ColumnPropNameInRow="Bitrate" msprop:Generator_ColumnVarNameInTable="columnBitrate" type="xs:int" minOccurs="0" />
+              <xs:element name="Samplerate" msdata:Caption="Hz" msprop:Generator_UserColumnName="Samplerate" msprop:Generator_ColumnPropNameInTable="SamplerateColumn" msprop:Generator_ColumnPropNameInRow="Samplerate" msprop:Generator_ColumnVarNameInTable="columnSamplerate" type="xs:int" minOccurs="0" />
+              <xs:element name="FileSize" msdata:Caption="Size" msprop:Generator_UserColumnName="FileSize" msprop:Generator_ColumnPropNameInTable="FileSizeColumn" msprop:Generator_ColumnPropNameInRow="FileSize" msprop:Generator_ColumnVarNameInTable="columnFileSize" type="xs:int" minOccurs="0" />
+              <xs:element name="Path" msdata:Caption="ファイルの場所" msprop:Generator_UserColumnName="Path" msprop:Generator_ColumnPropNameInTable="PathColumn" msprop:Generator_ColumnPropNameInRow="Path" msprop:Generator_ColumnVarNameInTable="columnPath" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="TreeView" msdata:Locale="" msprop:Generator_RowEvHandlerName="TreeViewRowChangeEventHandler" msprop:Generator_RowDeletedName="TreeViewRowDeleted" msprop:Generator_RowDeletingName="TreeViewRowDeleting" msprop:Generator_RowEvArgName="TreeViewRowChangeEvent" msprop:Generator_TablePropName="TreeView" msprop:Generator_RowChangedName="TreeViewRowChanged" msprop:Generator_UserTableName="TreeView" msprop:Generator_RowChangingName="TreeViewRowChanging" msprop:Generator_RowClassName="TreeViewRow" msprop:Generator_TableClassName="TreeViewDataTable" msprop:Generator_TableVarName="tableTreeView">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Level" msprop:Generator_UserColumnName="Level" msprop:Generator_ColumnPropNameInTable="LevelColumn" msprop:Generator_ColumnPropNameInRow="Level" msprop:Generator_ColumnVarNameInTable="columnLevel" type="xs:int" minOccurs="0" />
+              <xs:element name="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" type="xs:string" minOccurs="0" />
+              <xs:element name="Tag" msprop:Generator_UserColumnName="Tag" msprop:Generator_ColumnPropNameInTable="TagColumn" msprop:Generator_ColumnPropNameInRow="Tag" msprop:Generator_ColumnVarNameInTable="columnTag" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PlayListData" />
+      <xs:field xpath="mstns:No" />
+    </xs:unique>
+    <xs:unique name="PlayListView_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PlayListView" />
+      <xs:field xpath="mstns:No" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
